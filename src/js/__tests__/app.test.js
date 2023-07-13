@@ -12,5 +12,5 @@ test.each([
   (input, expected) => {
     const result = new ErrorRepository();
     expect(result.translate(input)).toEqual(expected);
-  }
+  },
 );
